@@ -13,6 +13,7 @@
 		BF5BA17721160897002BA72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5BA17621160897002BA72F /* Assets.xcassets */; };
 		BF5BA17A21160897002BA72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5BA17821160897002BA72F /* LaunchScreen.storyboard */; };
 		BF5BA17D21160898002BA72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5BA17C21160898002BA72F /* main.m */; };
+		BF5BA18521160B02002BA72F /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5BA18421160B02002BA72F /* ProductCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BF5BA17921160897002BA72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5BA17B21160898002BA72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5BA17C21160898002BA72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5BA18321160B02002BA72F /* ProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		BF5BA18421160B02002BA72F /* ProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BF5BA17821160897002BA72F /* LaunchScreen.storyboard */,
 				BF5BA17B21160898002BA72F /* Info.plist */,
 				BF5BA17C21160898002BA72F /* main.m */,
+				BF5BA18321160B02002BA72F /* ProductCell.h */,
+				BF5BA18421160B02002BA72F /* ProductCell.m */,
 			);
 			path = AddToCartAnimation;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5BA17221160897002BA72F /* ViewController.m in Sources */,
+				BF5BA18521160B02002BA72F /* ProductCell.m in Sources */,
 				BF5BA17D21160898002BA72F /* main.m in Sources */,
 				BF5BA16F21160897002BA72F /* AppDelegate.m in Sources */,
 			);
